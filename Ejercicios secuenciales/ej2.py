@@ -1,5 +1,5 @@
 # Ejercicio 1 de secuenciales: Calcular el perí­metro y área de un rectángulo dada su base y su altura.
-# Autor: Javier Epifanio López
+# Autor: Javier Epifanio López.
 # Fecha: 05/10/2020
 
 # Pedimos los datos (base y altura)
