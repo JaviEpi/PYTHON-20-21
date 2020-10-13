@@ -7,6 +7,7 @@
 # PEDIR altura
 # Perimetro --> 2*base + 2*altura
 # Área --> base * altura
+# Mostramos el área y perímetro
 #
 # Variables:
 #   *Base
