@@ -1,7 +1,5 @@
 # Ejercicio 3: Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
-#
 # Autor: Javier Epifanio López
-#
 # Fecha: 09/10/2020
 #
 # Algoritmo:
@@ -11,7 +9,6 @@
 # Variables:
 #   *Cateto1
 #   *Cateto2
-#
 
 # Importamos la función math
 import math

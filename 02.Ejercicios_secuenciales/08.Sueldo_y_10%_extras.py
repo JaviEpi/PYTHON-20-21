@@ -1,7 +1,5 @@
 # Ejercicio 8: Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas, el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
-#
 # Autor: Javier Epifanio López
-#
 # Fecha: 09/10/2020
 #
 # Algoritmo:
@@ -19,7 +17,6 @@
 # Venta 1
 # Venta 2
 # Venta 3
-#
 
 # Pedimos el sueldo, venta_1, venta_2, venta_3
 sueldo = float(input("Sueldo mensual del vendedor: "))

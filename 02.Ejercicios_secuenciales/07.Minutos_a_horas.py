@@ -1,7 +1,5 @@
 # Ejercicio 7: Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos   # corresponde.
-#
 # Autor: Javier Epifanio López
-#
 # Fecha: 09/10/2020
 #
 # Algoritmo:
@@ -10,7 +8,7 @@
 #
 # Variables:
 # Minutos   
-#
+
 
 # Pedimos los minutos
 min = int(input("Minutos que quieras convertir a horas y minutos: "))

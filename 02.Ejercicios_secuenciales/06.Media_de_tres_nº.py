@@ -1,7 +1,5 @@
 # Ejercicio 6: Programa que hace la media a tres números
-#
 # Autor: Javier Epifanio López
-#
 # Fecha: 09/10/2020
 #
 # Algoritmo:
@@ -14,7 +12,7 @@
 #   a <-- número al azar
 #   b <-- número al azar
 #   c <-- número al azar
-#
+
 
 # Pedir los tres números 
 a = float(input("Número 1: "))

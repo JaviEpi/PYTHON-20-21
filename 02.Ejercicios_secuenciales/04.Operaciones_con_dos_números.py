@@ -1,7 +1,5 @@
 # Ejercicio 4: Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
-#
 # Autor: Javier Epifanio López
-#
 # Fecha: 09/10/2020
 #
 # Algoritmo:
@@ -14,7 +12,7 @@
 # Variables:
 #   *Número 1
 #   *Número 2
-#
+
 
 # Pedimos los números
 a = float(input("Valor de a: "))
