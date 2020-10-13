@@ -23,5 +23,4 @@ perimetro = 2 * (base + altura)
 area = base * altura
 
 # Mostramos los cálculos
-print("El perímetro del rectangulo es: ", perimetro)
-print("El área del rectangulo es: ", area)
+print("El perímetro del rectangulo es: ", perimetro, "y el área del rectangulo es: ", area)
