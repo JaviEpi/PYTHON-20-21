@@ -1,15 +1,16 @@
-# Ejercicio 5: Convertidor de grados Fahrenheit a grados Celsius
-# Autor: Javier Epifanio López
-# Fecha: 09/10/2020
-#
-# Algoritmo:
-# PEDIR grados Fahrenheit
-# CONVERTIR a  grados Celsius -->  (°F − 32) * 5 / 9
-# MOSTRAR resultado
-#
-# Variables:
-# Grados Fahrenheit
+"""
+ Ejercicio 5: Convertidor de grados Fahrenheit a grados Celsius
+ Autor: Javier Epifanio López
+ Fecha: 09/10/2020
 
+ Variables:
+  - Grados Fahrenheit
+ Algoritmo:
+  - PEDIR grados Fahrenheit
+  - CONVERTIR a  grados Celsius -->  (°F − 32) * 5 / 9
+  - MOSTRAR grados Celsius
+
+"""
 
 # Pedimos grados Fahrenheit
 F = float(input("Grados Fahrenheit: "))

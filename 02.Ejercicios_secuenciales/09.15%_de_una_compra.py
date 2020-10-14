@@ -1,15 +1,16 @@
-# Ejercicio 9: Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuanto deberá # pagar finalmente por su compra.
-# Autor: Javier Epifanio López
-# Fecha: 09/10/2020
-#
-# Algoritmo:
-# PEDIR total compra
-# Cálculos --> descuento = 15/100 * total_compra
-# Cálculos --> precio_final = total_compra - descuento
-#
-# Variables:
-#   Total_compra
-#   
+"""
+ Ejercicio 9: Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber 
+ cuanto deberá pagar finalmente por su compra.
+ Autor: Javier Epifanio López
+ Fecha: 09/10/2020
+ 
+ Variables:
+  - Total_compra
+ Algoritmo:
+  - PEDIR total compra
+  - Cálculos <-- descuento = 15/100 * total_compra
+  - Cálculos <-- precio_final = total_compra - descuento
+""" 
 
 # Pedimos el total de la compra
 total_compra = float(input("Total de la compra: "))
