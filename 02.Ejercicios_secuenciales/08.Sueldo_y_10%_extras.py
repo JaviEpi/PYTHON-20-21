@@ -22,7 +22,7 @@ venta_2 = float(input("Segunda venta: "))
 venta_3 = float(input("Tercera venta: "))
 
 # Cálculos
-comisiones = 10/100 * (venta_1 + venta_2 + venta_3)
+comisiones = 0.1 * (venta_1 + venta_2 + venta_3) # 10% de las ventas
 sueldo_total = sueldo + comisiones
 
 # Mostrar comisiones y el sueldo total(sueldo mensual + comisiones mensuales)

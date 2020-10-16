@@ -1,21 +1,19 @@
-# Ejercicio 17: Un ciclista parte de una ciudad A a las HH horas, MM minutos y SS segundos. El tiempo de viaje hasta      # llegar a otra ciudad B es de T segundos. Escribir un algoritmo que determine la hora de llegada a la ciudad B.
-#
-# Autor: Javier Epifanio López
-#
-# Fecha: 10/10/2020
-#
-# Algoritmo:
-# PEDIR hora, minutos y segundos de inicio
-# PEDIR segundos que tarda en llegar a la otra ciudad
-# Cálculos
-# Muestro la hora de llegada
-#
-# Variables:
-#   *hora_inicio
-#   *mininutos_inicio
-#   *segundos_inicio 
-#   *segundos_viaje 
-#
+"""
+ Ejercicio 17: Un ciclista parte de una ciudad A a las HH horas, MM minutos y SS segundos. El tiempo de viaje hasta   llegar a otra ciudad B es de T segundos. Escribir un algoritmo que determine la hora de llegada a la ciudad B.
+ Autor: Javier Epifanio López
+ Fecha: 10/10/2020
+ 
+  Variables:
+  - hora_inicio
+  - mininutos_inicio
+  - segundos_inicio 
+  - segundos_viaje 
+ Algoritmo:
+  - PEDIR hora, minutos y segundos de inicio
+  - PEDIR segundos que tarda en llegar a la otra ciudad
+  - Cálculos
+  - Muestro la hora de llegada
+"""
 
 # Pedimos la hora de inicio y cuanto tiempo ha tardado en realizar el viaje
 hora_inicio = int(input("Hora de salida: "))

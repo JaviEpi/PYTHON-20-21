@@ -23,15 +23,15 @@
 """
 
 # Pedimos los datos necesarios (examenes_parciales, examen final y trabajo_final)
-examen_parcial_1 = float(input("Nota examen parcial 1: "))
-examen_parcial_2 = float(input("Nota examen parcial 2: "))
-examen_parcial_3 = float(input("Nota examen parcial 3: "))
+examen_parcial1 = float(input("Nota examen parcial 1: "))
+examen_parcial2 = float(input("Nota examen parcial 2: "))
+examen_parcial3 = float(input("Nota examen parcial 3: "))
 examen_final = float(input("Nota examen final: "))
 trabajo_final = float(input("Nota trabajo final: "))
 
 # Cálculo la media de la nota
 # Cálculo el 55% de la nota media de los tres examenes_parciales
-porcentaje_examenes_parciales = 0.55 * ((examen_parcial_1 + examen_parcial_2 + examen_parcial_3) / 3)
+porcentaje_examenes_parciales = 0.55 * ((examen_parcial1 + examen_parcial2 + examen_parcial3) / 3)
 
 # Cálculo el porcentaje del examen_final
 porcentaje_examen_final =  0.3 * examen_final

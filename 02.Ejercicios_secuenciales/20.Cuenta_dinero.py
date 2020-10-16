@@ -1,25 +1,15 @@
-# Ejercicio 20: Diseñar un algoritmo que nos diga el dinero que tenemos (en euros y céntimos) después de pedirnos cuantas # monedas tenemos de 2e, 1e, 50 céntimos, 20 céntimos o 10 céntimos). 
-#
-# Autor: Javier Epifanio López
-#
-# Fecha: 10/10/2020
-#
-# Algoritmo:
-# PEDIR monedas de 2€
-# PEDIR monedas de 1€
-# PEDIR monedas de 50 cent.
-# PEDIR monedas de 20 cent.
-# PEDIR monedas de 10 cent.
-# Cálculos
-# MOSTRAR el total en euros y centimos
-#
-# Variables:
-#   * Monedas_2€
-#   * Monedas_1€
-#   * Monedas_50cent
-#   * Monedas_20cent
-#   * Monedas_10cent
-#
+"""
+ Ejercicio 20: Diseñar un algoritmo que nos diga el dinero que tenemos (en euros y céntimos) después de pedirnos cuantas monedas tenemos de 2e, 1e, 50 céntimos, 20 céntimos o 10 céntimos). 
+ Autor: Javier Epifanio López
+ Fecha: 10/10/2020
+ 
+ Variables:
+   - Monedas_2€, Monedas_1€, Monedas_50cent, Monedas_20cent, Monedas_10cent
+ Algoritmo:
+  - PEDIR monedas de 2€, monedas de 1€, monedas de 50 cent, monedas de 20 cent, monedas de 10 cent.
+  - Cálculos
+  - MOSTRAR el total en euros y centimos
+"""
 
 # Pedimos el numero de monedas de 2€, 1€, 50 centimos, 20 centimos o 10 centimos.
 Monedas_2euros = float(input("Numero de monedas de 2€: "))

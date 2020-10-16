@@ -4,8 +4,8 @@
  Fecha: 10/10/2020
  
  Variables:
-  - punto_1 <-- (x1, y1) (Números enteros)
-  - punto_2 <-- (x2, y2) (Números enteros)
+  - punto1 <-- (x1, y1) (Números enteros)
+  - punto2 <-- (x2, y2) (Números enteros)
   - distancia 
  Algoritmo:
   - PEDIR punto_1 y punto_2

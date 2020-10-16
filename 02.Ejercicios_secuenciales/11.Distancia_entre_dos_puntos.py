@@ -4,18 +4,18 @@
  Fecha: 10/10/2020
  
  Variables:
-   - numero_1, numero_2 <-- Número entero 
+   - num1, num2 <-- Número entero 
  Algoritmo:
-  - PEDIR numero_1 y numero_2
+  - PEDIR num1 y num2
   - distancia <-- (numero_2 - numero_1)
   - MOSTRAR distancia
 """
 # Pedimos numero_1 y numero_2
-numero_1 = int(input("Valor número 1: "))
-numero_2 = int(input("Valor número 2: "))
+num1 = int(input("Valor número 1: "))
+num2 = int(input("Valor número 2: "))
 
 # Cálculos
-distancia = abs(numero_2 - numero_1)
+distancia = abs(num2 - num1)
 
 # Mostramos el resultado de la distancia entre dos puntos
 print("La distancia entre estos dos puntos es: ", distancia)

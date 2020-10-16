@@ -1,23 +1,21 @@
-# Ejercicio 19: Escribir un algoritmo para calcular la nota final de un estudiante, considerando que por cada respuesta  # correcta 5 puntos, por una incorrecta -1 y por respuestas en blanco 0. Imprime el resultado obtenido por el estudiante.
-#
-# Autor: Javier Epifanio López
-#
-# Fecha: 10/10/2019
-#
-# Algoritmo:
-# PEDIR numero de preguntas
-# PEDIR numero de preguntas correctas
-# PEDIR numero de preguntas incorrectas
-# PEDIR numero de preguntas en blanco
-# Cálculos para hallar la nota final
-# MOSTRAR la nota final
-#
-# Variables:
-#   * numero_preguntas
-#   * preguntas_correctas
-#   * preguntas_incorrectas
-#   * preguntas_blanco
-#
+"""
+ Ejercicio 19: Escribir un algoritmo para calcular la nota final de un estudiante, considerando que por cada respuesta  # correcta 5 puntos, por una incorrecta -1 y por respuestas en blanco 0. Imprime el resultado obtenido por el estudiante.
+ Autor: Javier Epifanio López
+ Fecha: 10/10/2019
+ 
+ Variables:
+  - numero_preguntas
+  - preguntas_correctas
+  - preguntas_incorrectas
+  - preguntas_blanco
+ Algoritmo:
+  - PEDIR numero de preguntas
+  - PEDIR numero de preguntas correctas
+  - PEDIR numero de preguntas incorrectas
+  - PEDIR numero de preguntas en blanco
+  - Cálculos para hallar la nota final
+  - MOSTRAR la nota final
+"""
 
 # Pedimos el total de pregunta 
 numero_preguntas = int(input("Número de preguntas: "))
