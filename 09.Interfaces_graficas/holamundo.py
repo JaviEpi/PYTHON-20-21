@@ -8,7 +8,8 @@
 import tkinter as tk
 ventana = tk.Tk()
 
-label = tk.Label(ventana, text="Hello World!") # Create a text label
+label = tk.Label(ventana, text="Hola Mundo!") # Create a text label
 label.pack(padx=20, pady=20) # Pack it into the window
+
 
 ventana.mainloop()
