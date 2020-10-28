@@ -16,8 +16,6 @@
   - MOSTRAR el tipo de triángulo 
 """
 
-import math
-
 # Pedimos datos
 lado_a = float(input("Introduce longitud lado A: "))
 lado_b = float(input("Introduce longitud lado B: "))
