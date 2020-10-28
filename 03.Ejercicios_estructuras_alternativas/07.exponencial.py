@@ -10,24 +10,23 @@
   - base
   - exponente
  Algoritmo:
-  - PEDIR base
-  - PEDIR exponente
+  - PEDIR base, exponente
   - SI expononente posisitivo --> mostrar la potencia
   - SI exponente es 0 --> mostrar el resultado de la potencia --> 1
-  - SI exponente es negativp --> mostrar el resultado 1 / potencia
+  - SI exponente es negativo --> mostrar el resultado 1 / potencia
 """
 # Pedimos la base y el exponente
-base = int(input("Valor de la base: "))
-exponete = int(input("Valor del exponente: "))
+base = float(input("Valor de la base: "))
+exponente = float(input("Valor del exponente: "))
 
 # SI expononente posisitivo --> mostrar la potencia
-if exponete > 0:
-    print("El resultado es: ", base ** exponete)
+if exponente > 0:
+    print("El resultado es: ", base ** exponente)
 
 # SI exponente es 0 --> mostrar el resultado de la potenci --> 1
-if exponete == 0:
+elif exponente == 0:
     print("El resultado es: 1")
 
-# SI exponente es negativp --> mostrar el resultado 1 / potencia
-if exponete < 0:
-    print("El resultado es: ",(base ** (1 / exponete)))
+# SI exponente es negativo --> mostrar el resultado 1 / potencia
+else:
+    print("El resultado es: ",(base ** (1 / exponente)))

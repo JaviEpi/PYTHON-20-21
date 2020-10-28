@@ -4,7 +4,7 @@
  Fecha: 22/10/2020
  
  Variables:
-  - letter --> cadena(letra)
+  - letter <-- cadena(letra)
  Algoritmo:
   - PEDIR la cadena
   - SI la letter <-- letter >= A y cad <= Z --> mostrar la cadena es mayuscula
@@ -15,7 +15,9 @@
 letter = input("Introduce una letra: ")
 
 # if la cadena es una letra mayuscula muestralo y si no muestra que no es mayuscula
-if len(letter)==1 and letter>="A" and letter<="Z":
+if len(letter) == 1 and ((letter >= "A" and letter <= "Z") or
+                        (letter >= "Á" and letter <= "Ú") or
+                        (letter >= "Ñ" and letter <= "Ü")):
     print("La cadena es una letra mayúscula")
 else:
     print("La cadena no es una letra mayúscula")

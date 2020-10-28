@@ -13,12 +13,15 @@
 """
 # Pedimos el año
 year = int(input("Introduce el año: "))
-if year % 4 == 0:
-    if year % 100 != 0:
-        print("El año ", year, " es bisiesto")
-    elif year % 400 == 0:
-        print("El año ", year, " es bisiesto")
+
+# Es bisiesto o no es bisiesto
+if year > 0:
+    if year % 4 == 0:
+        if year % 100 != 0:
+            print("El año ", year, " es bisiesto")
+        elif year % 400 == 0:
+            print("El año ", year, " es bisiesto")
     else:
         print("El año ", year, " no es bisiesto")
 else:
-    print("El año ",year, " no es bisiesto")
+    print("El año ",year, " no es un año válido")
