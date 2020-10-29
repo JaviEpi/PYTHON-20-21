@@ -8,9 +8,9 @@
  Algoritmo:
   - PEDIR el numero que va al viaje
   - SI num_alumnos >= 100 --> 65€
-  - SI num_alumnos < 99 and num_alumnos >= 50 --> 70€
-  - SI num_alumnos < 49 and num_alumnos >= 30 --> 95€
-  - SI num_alumnos < 100 --> 95€
+  - SI NO num_alumnos >= 50 --> 70€
+  - SI NO num_alumnos >= 30 --> 95€
+  - SI NO num_alumnos < 30 --> 95€
   - MOSTRAR el precio total
 """
 
@@ -19,15 +19,15 @@ num_alumnos = int(input("Número total de alumnos que asistiran al viaje: "))
 
 # SI num_alumnos >= 100 --> 65€
 if num_alumnos >= 100:
-    print("El coste por el número de alumnos es de: 65€, y el coste del autobus es de: ",4000/num_alumnos,"El total del viaje es de: ",65+4000/num_alumnos, "€")
+    print("El coste por el número de alumnos es de: 65€, y el coste del autobus es de: ",65 * num_alumnos)
 
-# SI num_alumnos < 99 and num_alumnos >= 50 --> 70€
-elif num_alumnos < 99 and num_alumnos >= 50:
-    print("El coste por el número de alumnos es de: 70€, y el coste del autobus es de: ",4000/num_alumnos,"El total del viaje es de: ",70+4000/num_alumnos, "€")
+# SI NO num_alumnos >= 50 --> 70€
+elif num_alumnos >= 50:
+    print("El coste por el número de alumnos es de: 70€, y el coste del autobus es de: ",70 * num_alumnos)
 
-# SI num_alumnos < 49 and num_alumnos >= 30 --> 95€
-elif num_alumnos < 49 and num_alumnos >= 30:
-    print("El coste por el número de alumnos es de: 95€, y el coste del autobus es de: ",4000/num_alumnos,"El total del viaje es de: ",95+4000/num_alumnos, "€")
-# SI num_alumnos < 100 --> 95€
+# SI NO num_alumnos < 49 and num_alumnos >= 30 --> 95€
+elif num_alumnos >= 30:
+    print("El coste por el número de alumnos es de: 95€, y el coste del autobus es de: ",30 * num_alumnos)
+# SI num_alumnos < 30 --> 95€
 else:
-   print("El coste por el número de alumnos es de: 95€, y el coste del autobus es de: ",4000/num_alumnos,"El total del viaje es de: ",95+4000/num_alumnos, "€")
+   print("El coste por el número de alumnos es de: 95€, y el coste del autobus es de: ",4000 / num_alumnos,"El total del viaje es de: ",95 + 4000/num_alumnos, "€")
