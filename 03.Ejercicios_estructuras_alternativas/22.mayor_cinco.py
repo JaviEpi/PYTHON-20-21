@@ -1,5 +1,5 @@
 """
- Ejercicio 21: Realiza un programa que pida cinco números enteros y diga cuál es el mayor.
+ Ejercicio 22: Realiza un programa que pida cinco números enteros y diga cuál es el mayor.
  Autor: Javier Epifanio López
  Fecha: 22/10/2020
  
@@ -23,7 +23,7 @@ num_cuatro = int(input("Valor del cuarto número: "))
 num_cinco = int(input("Valor del quinto número: "))
 num_mayor = num_uno
 
-# Comprobamos que el número uno es mayor que el segundo
+# Comprobamos que todos los números sean iguales
 if num_mayor == num_dos and num_mayor == num_tres and num_mayor == num_cuatro and num_mayor == num_cinco:
     print("Todos los números son iguales")
 else:
