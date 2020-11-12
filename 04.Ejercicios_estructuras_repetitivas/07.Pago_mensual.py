@@ -15,16 +15,17 @@
    - Mostramos total_pago 
 '''
 
-# Calculos
-pago_mensual = 10
+# Inicializamos
+pago_mensual = 10 # Pago del primer mes
 total_pago = 0
 mes = 0
 
 # PARA mes en el rango entre 1 y 21
 for mes in range(1,21):
-    print(f"en el mes {mes} paga: {pago_mensual}€")
+    print(f"En el mes {mes} paga: {pago_mensual}€")
     total_pago +=  pago_mensual
     pago_mensual *= 2
     
-# Mostramos los resultados por pantalla
-print(f"total: {total_pago} €")
+# Mostramos los resultados por pantalla total_pago
+print("----------------------------")
+print(f"Total pago: {total_pago}€")

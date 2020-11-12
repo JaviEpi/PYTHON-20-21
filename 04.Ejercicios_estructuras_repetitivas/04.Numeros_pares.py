@@ -17,8 +17,13 @@ num_1 = int(input("Introduce el número 1: "))
 num_2 = int(input("Introduce el número 2: "))
 
 # Si primer número es impar pasamos al siguiente par
+if num_1 < num_2:
+  num_1, num_2 == num_2,num_1
 if num_1 % 2 == 1:
-    num_1 += 1
+  num_1 += 1
+
+
+
 # Mostramos salida
 for num in range(num_1, num_2 + 1, 2):
     print(f"{num} ",end="")
